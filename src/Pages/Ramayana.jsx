@@ -56,7 +56,7 @@ const Ramayana = () => {
   const AnserthisQuestion = async () => {
     
 
-    let url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' + API_KEY
+    let url = "PASTE_API_URL_HERE.." + API_KEY
 
     let messageToSend = [
       ...trainingPrompt,
